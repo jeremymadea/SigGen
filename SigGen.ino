@@ -33,8 +33,14 @@
 
 // Convenience macros
 #define pulse_high(pin) { digitalWrite(pin, HIGH); digitalWrite(pin, LOW); }
+
 // LCD constants
-#define I2C_ADDR      0x27  // Define I2C Address where the PCF8574A is
+
+    /*
+     * I2C_ADDR -  The address of the PCF8574x-based LCD I2C Backpack. 
+     *             ** CHECK YOUR MODULE. THEY AREN"T ALL THE SAME. ** 
+     */
+#define I2C_ADDR      0x27  // Address for the LCD I2C Backpack. (PCF8574) 
 
 
 // UI Constants 
