@@ -4,17 +4,16 @@ A sine and square wave generator based on Arduino and an AD9850 DDS module.
 
 ## Parts
 
-* Arduino 
-* 2x16 LCD
-* I2C backpack for the LCD
-* AD9850 Module 
-* Rotary Encoder 
-* Push button switch (normally open) 
-* 100 Ohm resistor
-* Rocker switch (SPST) 
-* BNC comnector 
-* Enclosure 
+* [Arduino Uno R3](http://amzn.to/2mc0O42)
+* [2x16 LCD w/ I2C backpack](http://amzn.to/2mdo6XQ) 
+* [AD9850 Module](http://amzn.to/2mvFnwG) 
+* [Rotary Encoder w/ push switch](http://amzn.to/2nqdzZG) 
+* [100 Ohm resistor](http://amzn.to/2lNNyar)
+* [Toggle Switch](http://amzn.to/2lNNyar)
+* [BNC Panel/Chassis mount connector](http://amzn.to/2md7dNa) 
+* [Enclosure](http://amzn.to/2mTJSnk)
 
-## Dependencies 
+## Arduino Library Dependencies 
 
-Rotary encoder Arduino library 
+* [LiquidCrystal_I2C](https://github.com/marcoschwartz/LiquidCrystal_I2C.git)
+* [Rotary](https://github.com/buxtronix/arduino/tree/master/libraries/Rotary)
